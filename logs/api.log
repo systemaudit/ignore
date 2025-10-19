@@ -1,0 +1,269 @@
+2025-09-05 03:06:07,642 - app - INFO - Starting API server...
+2025-09-05 03:06:07,643 - database.connection - INFO - Initializing MySQL connection pool...
+2025-09-05 03:06:07,645 - database.connection - INFO - Connection pool created: localhost:3306
+2025-09-05 03:06:07,646 - database.users - INFO - UserDatabase initialized successfully
+2025-09-05 03:06:07,647 - database.installations - INFO - InstallationDatabase initialized successfully
+2025-09-05 03:06:07,647 - app - INFO - API server started successfully
+2025-09-05 03:06:07,648 - app - INFO - Shutting down API server...
+2025-09-05 03:06:07,648 - database.connection - INFO - Connection pool closed
+2025-09-05 03:06:07,648 - app - INFO - API server stopped
+2025-09-05 03:06:21,708 - app - INFO - Starting API server...
+2025-09-05 03:06:21,708 - database.connection - INFO - Initializing MySQL connection pool...
+2025-09-05 03:06:21,710 - database.connection - INFO - Connection pool created: localhost:3306
+2025-09-05 03:06:21,712 - database.users - INFO - UserDatabase initialized successfully
+2025-09-05 03:06:21,713 - database.installations - INFO - InstallationDatabase initialized successfully
+2025-09-05 03:06:21,713 - app - INFO - API server started successfully
+2025-09-05 03:16:23,831 - app - INFO - Shutting down API server...
+2025-09-05 03:16:23,831 - database.connection - INFO - Connection pool closed
+2025-09-05 03:16:23,831 - app - INFO - API server stopped
+2025-09-05 03:24:28,470 - app - INFO - Starting API server...
+2025-09-05 03:24:28,471 - database.connection - INFO - Initializing MySQL connection pool...
+2025-09-05 03:24:28,473 - database.connection - INFO - Connection pool created: localhost:3306
+2025-09-05 03:24:28,475 - database.users - INFO - UserDatabase initialized successfully
+2025-09-05 03:24:28,476 - database.installations - INFO - InstallationDatabase initialized successfully
+2025-09-05 03:24:28,476 - app - INFO - API server started successfully
+2025-09-05 03:31:19,331 - app - INFO - Shutting down API server...
+2025-09-05 03:31:19,331 - database.connection - INFO - Connection pool closed
+2025-09-05 03:31:19,331 - app - INFO - API server stopped
+2025-09-05 03:31:31,813 - app - INFO - Starting API server...
+2025-09-05 03:31:31,813 - database.connection - INFO - Initializing MySQL connection pool...
+2025-09-05 03:31:31,815 - database.connection - INFO - Connection pool created: localhost:3306
+2025-09-05 03:31:31,816 - database.users - INFO - UserDatabase initialized successfully
+2025-09-05 03:31:31,817 - database.installations - INFO - InstallationDatabase initialized successfully
+2025-09-05 03:31:31,818 - app - INFO - API server started successfully
+2025-09-05 03:35:19,956 - app - INFO - Shutting down API server...
+2025-09-05 03:35:19,956 - database.connection - INFO - Connection pool closed
+2025-09-05 03:35:19,956 - app - INFO - API server stopped
+2025-09-05 03:35:32,573 - app - INFO - Starting API server...
+2025-09-05 03:35:32,573 - database.connection - INFO - Initializing MySQL connection pool...
+2025-09-05 03:35:32,576 - database.connection - INFO - Connection pool created: localhost:3306
+2025-09-05 03:35:32,577 - database.users - INFO - UserDatabase initialized successfully
+2025-09-05 03:35:32,578 - database.installations - INFO - InstallationDatabase initialized successfully
+2025-09-05 03:35:32,579 - app - INFO - API server started successfully
+2025-09-05 03:36:38,181 - database.users - INFO - User johna added (telegram_id: NULL)
+2025-09-05 03:37:13,127 - database.users - INFO - User johna logged in from API
+2025-09-05 04:35:18,865 - database.installations - INFO - Installation install_13_5acb24b3 created for user 13 at 209.94.62.251
+2025-09-05 04:35:18,874 - database.installations - INFO - Installation install_13_2f903dbc created for user 13 at 209.94.62.251
+2025-09-05 04:35:18,901 - core.ssh_manager - INFO - Connecting to 209.94.62.251 as root
+2025-09-05 04:35:18,903 - asyncssh - INFO - Opening SSH connection to 209.94.62.251, port 22
+2025-09-05 04:35:19,090 - asyncssh - INFO - [conn=0] Connected to SSH server at 209.94.62.251, port 22
+2025-09-05 04:35:19,090 - asyncssh - INFO - [conn=0]   Local address: 10.0.0.116, port 37490
+2025-09-05 04:35:19,090 - asyncssh - INFO - [conn=0]   Peer address: 209.94.62.251, port 22
+2025-09-05 04:35:19,848 - asyncssh - INFO - [conn=0] Beginning auth for user root
+2025-09-05 04:35:20,267 - asyncssh - INFO - [conn=0] Auth for user root succeeded
+2025-09-05 04:35:20,268 - core.ssh_manager - INFO - Successfully connected to 209.94.62.251
+2025-09-05 04:35:20,286 - core.ssh_manager - INFO - Checking RAM for 209.94.62.251
+2025-09-05 04:35:20,287 - asyncssh - INFO - [conn=0, chan=0] Requesting new SSH session
+2025-09-05 04:35:20,702 - asyncssh - INFO - [conn=0, chan=0]   Command: free -m | awk 'NR==2 {print $2}'
+2025-09-05 04:35:20,894 - asyncssh - INFO - [conn=0, chan=0] Received exit status 0
+2025-09-05 04:35:20,895 - asyncssh - INFO - [conn=0, chan=0] Received channel close
+2025-09-05 04:35:20,895 - asyncssh - INFO - [conn=0, chan=0] Channel closed
+2025-09-05 04:35:20,895 - core.ssh_manager - INFO - RAM for 209.94.62.251: 7900 MB
+2025-09-05 04:35:20,896 - core.ssh_manager - INFO - Checking disk for 209.94.62.251
+2025-09-05 04:35:20,896 - asyncssh - INFO - [conn=0, chan=1] Requesting new SSH session
+2025-09-05 04:35:21,083 - asyncssh - INFO - [conn=0, chan=1]   Command: df -BG --output=avail / | tail -n1 | sed 's/G//'
+2025-09-05 04:35:21,275 - asyncssh - INFO - [conn=0, chan=1] Received exit status 0
+2025-09-05 04:35:21,275 - asyncssh - INFO - [conn=0, chan=1] Received channel close
+2025-09-05 04:35:21,275 - asyncssh - INFO - [conn=0, chan=1] Channel closed
+2025-09-05 04:35:21,276 - core.ssh_manager - INFO - Disk for 209.94.62.251: 148 GB
+2025-09-05 04:35:21,276 - core.ssh_manager - INFO - Checking CPU cores for 209.94.62.251
+2025-09-05 04:35:21,276 - asyncssh - INFO - [conn=0, chan=2] Requesting new SSH session
+2025-09-05 04:35:21,463 - asyncssh - INFO - [conn=0, chan=2]   Command: nproc
+2025-09-05 04:35:21,653 - asyncssh - INFO - [conn=0, chan=2] Received exit status 0
+2025-09-05 04:35:21,654 - asyncssh - INFO - [conn=0, chan=2] Received channel close
+2025-09-05 04:35:21,654 - asyncssh - INFO - [conn=0, chan=2] Channel closed
+2025-09-05 04:35:21,654 - core.ssh_manager - INFO - CPU cores for 209.94.62.251: 4
+2025-09-05 04:35:21,655 - core.ssh_manager - INFO - Checking OS type for 209.94.62.251
+2025-09-05 04:35:21,655 - asyncssh - INFO - [conn=0, chan=3] Requesting new SSH session
+2025-09-05 04:35:21,842 - asyncssh - INFO - [conn=0, chan=3]   Command: grep '^ID=' /etc/os-release | cut -d= -f2 | tr -d '"'
+2025-09-05 04:35:22,031 - asyncssh - INFO - [conn=0, chan=3] Received exit status 0
+2025-09-05 04:35:22,032 - asyncssh - INFO - [conn=0, chan=3] Received channel close
+2025-09-05 04:35:22,032 - asyncssh - INFO - [conn=0, chan=3] Channel closed
+2025-09-05 04:35:22,032 - core.ssh_manager - INFO - OS type for 209.94.62.251: ubuntu
+2025-09-05 04:35:22,032 - core.ssh_manager - INFO - Checking boot mode for 209.94.62.251
+2025-09-05 04:35:22,033 - asyncssh - INFO - [conn=0, chan=4] Requesting new SSH session
+2025-09-05 04:35:22,220 - asyncssh - INFO - [conn=0, chan=4]   Command: [ -d /sys/firmware/efi ] && echo 'uefi' || echo 'legacy'
+2025-09-05 04:35:22,409 - asyncssh - INFO - [conn=0, chan=4] Received exit status 0
+2025-09-05 04:35:22,410 - asyncssh - INFO - [conn=0, chan=4] Received channel close
+2025-09-05 04:35:22,410 - asyncssh - INFO - [conn=0, chan=4] Channel closed
+2025-09-05 04:35:22,410 - core.ssh_manager - INFO - Boot mode for 209.94.62.251: legacy
+2025-09-05 04:35:22,410 - core.ssh_manager - INFO - System specs for 209.94.62.251: {'ram_mb': 7900, 'disk_gb': 148, 'cpu_cores': 4, 'os_type': 'ubuntu', 'boot_mode': 'legacy'}
+2025-09-05 04:35:22,428 - core.ssh_manager - INFO - Cleaning up old installation on 209.94.62.251
+2025-09-05 04:35:22,428 - asyncssh - INFO - [conn=0, chan=5] Requesting new SSH session
+2025-09-05 04:35:22,616 - asyncssh - INFO - [conn=0, chan=5]   Command: rm -rf /root/windows_install
+2025-09-05 04:35:22,805 - asyncssh - INFO - [conn=0, chan=5] Received exit status 0
+2025-09-05 04:35:22,805 - asyncssh - INFO - [conn=0, chan=5] Received channel close
+2025-09-05 04:35:22,806 - asyncssh - INFO - [conn=0, chan=5] Channel closed
+2025-09-05 04:35:22,806 - core.ssh_manager - INFO - Creating installation directory on 209.94.62.251
+2025-09-05 04:35:22,806 - asyncssh - INFO - [conn=0, chan=6] Requesting new SSH session
+2025-09-05 04:35:22,993 - asyncssh - INFO - [conn=0, chan=6]   Command: mkdir -p /root/windows_install
+2025-09-05 04:35:23,183 - asyncssh - INFO - [conn=0, chan=6] Received exit status 0
+2025-09-05 04:35:23,183 - asyncssh - INFO - [conn=0, chan=6] Received channel close
+2025-09-05 04:35:23,184 - asyncssh - INFO - [conn=0, chan=6] Channel closed
+2025-09-05 04:35:23,184 - core.ssh_manager - INFO - Downloading installation script to 209.94.62.251
+2025-09-05 04:35:23,184 - asyncssh - INFO - [conn=0, chan=7] Requesting new SSH session
+2025-09-05 04:35:23,371 - asyncssh - INFO - [conn=0, chan=7]   Command: cd /root/windows_install && wget --timeout=60 --tries=3 -O reinstall.sh https://kodeazmi.id/windows/reinstall.sh && chmod +x reinstall.sh
+2025-09-05 04:35:24,645 - asyncssh - INFO - [conn=0, chan=7] Received exit status 0
+2025-09-05 04:35:24,645 - asyncssh - INFO - [conn=0, chan=7] Received channel close
+2025-09-05 04:35:24,645 - asyncssh - INFO - [conn=0, chan=7] Channel closed
+2025-09-05 04:35:24,646 - asyncssh - INFO - [conn=0, chan=8] Requesting new SSH session
+2025-09-05 04:35:24,833 - asyncssh - INFO - [conn=0, chan=8]   Command: [ -f /root/windows_install/reinstall.sh ] && echo 'OK' || echo 'FAIL'
+2025-09-05 04:35:25,022 - asyncssh - INFO - [conn=0, chan=8] Received exit status 0
+2025-09-05 04:35:25,022 - asyncssh - INFO - [conn=0, chan=8] Received channel close
+2025-09-05 04:35:25,023 - asyncssh - INFO - [conn=0, chan=8] Channel closed
+2025-09-05 04:35:25,023 - core.ssh_manager - INFO - Installation prepared for 209.94.62.251
+2025-09-05 04:35:25,040 - core.ssh_manager - INFO - Using image URL for 209.94.62.251: https://mysticpage.id/bios/windows10.gz (boot: legacy)
+2025-09-05 04:35:25,040 - core.ssh_manager - INFO - Starting installation on 209.94.62.251 with RDP port 22
+2025-09-05 04:35:25,040 - asyncssh - INFO - [conn=0, chan=9] Requesting new SSH session
+2025-09-05 04:35:25,228 - asyncssh - INFO - [conn=0, chan=9]   Command: cd /root/windows_install && bash reinstall.sh dd --rdp-port 22 --password 'Windows123!' --img 'https://mysticpage.id/bios/windows10.gz' 2>&1
+2025-09-05 04:35:30,793 - asyncssh - INFO - [conn=0, chan=9] Received exit status 0
+2025-09-05 04:35:30,794 - asyncssh - INFO - [conn=0, chan=9] Received channel close
+2025-09-05 04:35:30,794 - asyncssh - INFO - [conn=0, chan=9] Channel closed
+2025-09-05 04:35:30,794 - core.ssh_manager - INFO - Installation command completed for 209.94.62.251, scheduling reboot
+2025-09-05 04:35:30,795 - asyncssh - INFO - [conn=0, chan=10] Requesting new SSH session
+2025-09-05 04:35:30,982 - asyncssh - INFO - [conn=0, chan=10]   Command: nohup sh -c 'sleep 5 && reboot' &
+2025-09-05 04:35:31,171 - asyncssh - INFO - [conn=0, chan=10] Received exit status 0
+2025-09-05 04:35:36,190 - asyncssh - INFO - [conn=0] Connection lost
+2025-09-05 04:35:36,190 - asyncssh - INFO - [conn=0, chan=10] Closing channel due to connection close
+2025-09-05 04:35:36,190 - asyncssh - INFO - [conn=0, chan=10] Channel closed: Connection lost
+2025-09-05 04:35:36,191 - core.ssh_manager - INFO - Reboot scheduled for 209.94.62.251
+2025-09-05 04:41:41,209 - handlers.install - INFO - Port 80 closed, check 1/2 for 209.94.62.251
+2025-09-05 04:41:56,210 - handlers.install - INFO - Port 80 closed, check 2/2 for 209.94.62.251
+2025-09-05 04:41:56,225 - database.users - INFO - Updated install stats for user_id 13: success=True
+2025-09-05 04:41:56,226 - asyncssh - INFO - [conn=0] Closing connection
+2025-09-05 04:41:56,226 - asyncssh - INFO - [conn=0] Sending disconnect: Disconnected by application (11)
+2025-09-05 04:41:56,227 - core.ssh_manager - INFO - Disconnected from 209.94.62.251
+2025-09-05 04:43:33,859 - app - INFO - Starting API server...
+2025-09-05 04:43:33,860 - database.connection - INFO - Initializing MySQL connection pool...
+2025-09-05 04:43:33,862 - database.connection - INFO - Connection pool created: localhost:3306
+2025-09-05 04:43:33,863 - database.users - INFO - UserDatabase initialized successfully
+2025-09-05 04:43:33,864 - database.installations - INFO - InstallationDatabase initialized successfully
+2025-09-05 04:43:33,865 - app - INFO - API server started successfully
+2025-09-05 11:56:59,364 - database.users - INFO - User aws logged in from API
+2025-09-05 11:58:36,951 - database.users - INFO - User aws logged in from API
+2025-09-05 11:59:00,430 - database.users - INFO - User aws logged in from API
+2025-09-05 11:59:05,108 - database.users - INFO - User aws logged in from API
+2025-09-05 11:59:37,866 - database.users - INFO - User aws logged in from API
+2025-09-05 12:00:04,103 - database.users - INFO - User aws logged in from API
+2025-09-05 12:02:11,440 - database.users - INFO - User aws logged in from API
+2025-09-05 12:04:12,852 - database.users - INFO - User aws logged in from API
+2025-09-05 12:21:03,036 - database.installations - INFO - Installation install_7_30206af8 created for user 7 at 85.9.192.253
+2025-09-05 12:21:03,047 - database.installations - INFO - Installation install_7_0738be26 created for user 7 at 85.9.192.253
+2025-09-05 12:21:03,067 - core.ssh_manager - INFO - Connecting to 85.9.192.253 as root
+2025-09-05 12:21:03,068 - asyncssh - INFO - Opening SSH connection to 85.9.192.253, port 22
+2025-09-05 12:21:03,326 - asyncssh - INFO - [conn=0] Connected to SSH server at 85.9.192.253, port 22
+2025-09-05 12:21:03,326 - asyncssh - INFO - [conn=0]   Local address: 10.0.0.116, port 44848
+2025-09-05 12:21:03,326 - asyncssh - INFO - [conn=0]   Peer address: 85.9.192.253, port 22
+2025-09-05 12:21:04,370 - asyncssh - INFO - [conn=0] Beginning auth for user root
+2025-09-05 12:21:08,323 - asyncssh - INFO - [conn=0] Auth failed for user root
+2025-09-05 12:21:08,323 - asyncssh - INFO - [conn=0] Connection failure: Permission denied for user root on host 85.9.192.253
+2025-09-05 12:21:08,323 - asyncssh - INFO - [conn=0] Aborting connection
+2025-09-05 12:21:08,323 - core.ssh_manager - ERROR - Permission denied for 85.9.192.253
+2025-09-05 12:21:08,336 - database.users - INFO - Updated install stats for user_id 7: success=False
+2025-09-05 12:25:24,910 - database.installations - INFO - Installation install_7_622d0e56 created for user 7 at 85.9.192.253
+2025-09-05 12:25:24,921 - database.installations - INFO - Installation install_7_b37fd39c created for user 7 at 85.9.192.253
+2025-09-05 12:25:24,939 - core.ssh_manager - INFO - Connecting to 85.9.192.253 as root
+2025-09-05 12:25:24,940 - asyncssh - INFO - Opening SSH connection to 85.9.192.253, port 22
+2025-09-05 12:25:25,187 - asyncssh - INFO - [conn=1] Connected to SSH server at 85.9.192.253, port 22
+2025-09-05 12:25:25,187 - asyncssh - INFO - [conn=1]   Local address: 10.0.0.116, port 47570
+2025-09-05 12:25:25,187 - asyncssh - INFO - [conn=1]   Peer address: 85.9.192.253, port 22
+2025-09-05 12:25:26,183 - asyncssh - INFO - [conn=1] Beginning auth for user root
+2025-09-05 12:25:30,113 - asyncssh - INFO - [conn=1] Auth failed for user root
+2025-09-05 12:25:30,113 - asyncssh - INFO - [conn=1] Connection failure: Permission denied for user root on host 85.9.192.253
+2025-09-05 12:25:30,113 - asyncssh - INFO - [conn=1] Aborting connection
+2025-09-05 12:25:30,113 - core.ssh_manager - ERROR - Permission denied for 85.9.192.253
+2025-09-05 12:25:30,126 - database.users - INFO - Updated install stats for user_id 7: success=False
+2025-09-05 12:29:48,907 - database.installations - INFO - Installation install_7_d82f58ea created for user 7 at 85.9.192.253
+2025-09-05 12:29:48,918 - database.installations - INFO - Installation install_7_89ac4eab created for user 7 at 85.9.192.253
+2025-09-05 12:29:48,938 - core.ssh_manager - INFO - Connecting to 85.9.192.253 as root
+2025-09-05 12:29:48,939 - asyncssh - INFO - Opening SSH connection to 85.9.192.253, port 22
+2025-09-05 12:29:49,190 - asyncssh - INFO - [conn=2] Connected to SSH server at 85.9.192.253, port 22
+2025-09-05 12:29:49,190 - asyncssh - INFO - [conn=2]   Local address: 10.0.0.116, port 57752
+2025-09-05 12:29:49,190 - asyncssh - INFO - [conn=2]   Peer address: 85.9.192.253, port 22
+2025-09-05 12:29:50,203 - asyncssh - INFO - [conn=2] Beginning auth for user root
+2025-09-05 12:29:50,739 - asyncssh - INFO - [conn=2] Auth for user root succeeded
+2025-09-05 12:29:50,740 - core.ssh_manager - INFO - Successfully connected to 85.9.192.253
+2025-09-05 12:29:50,758 - core.ssh_manager - INFO - Checking RAM for 85.9.192.253
+2025-09-05 12:29:50,758 - asyncssh - INFO - [conn=2, chan=0] Requesting new SSH session
+2025-09-05 12:29:51,300 - asyncssh - INFO - [conn=2, chan=0]   Command: free -m | awk 'NR==2 {print $2}'
+2025-09-05 12:29:51,558 - asyncssh - INFO - [conn=2, chan=0] Received exit status 0
+2025-09-05 12:29:51,558 - asyncssh - INFO - [conn=2, chan=0] Received channel close
+2025-09-05 12:29:51,559 - asyncssh - INFO - [conn=2, chan=0] Channel closed
+2025-09-05 12:29:51,559 - core.ssh_manager - INFO - RAM for 85.9.192.253: 3874 MB
+2025-09-05 12:29:51,559 - core.ssh_manager - INFO - Checking disk for 85.9.192.253
+2025-09-05 12:29:51,559 - asyncssh - INFO - [conn=2, chan=1] Requesting new SSH session
+2025-09-05 12:29:51,810 - asyncssh - INFO - [conn=2, chan=1]   Command: df -BG --output=avail / | tail -n1 | sed 's/G//'
+2025-09-05 12:29:52,066 - asyncssh - INFO - [conn=2, chan=1] Received exit status 0
+2025-09-05 12:29:52,066 - asyncssh - INFO - [conn=2, chan=1] Received channel close
+2025-09-05 12:29:52,067 - asyncssh - INFO - [conn=2, chan=1] Channel closed
+2025-09-05 12:29:52,067 - core.ssh_manager - INFO - Disk for 85.9.192.253: 73 GB
+2025-09-05 12:29:52,067 - core.ssh_manager - INFO - Checking CPU cores for 85.9.192.253
+2025-09-05 12:29:52,067 - asyncssh - INFO - [conn=2, chan=2] Requesting new SSH session
+2025-09-05 12:29:52,318 - asyncssh - INFO - [conn=2, chan=2]   Command: nproc
+2025-09-05 12:29:52,573 - asyncssh - INFO - [conn=2, chan=2] Received exit status 0
+2025-09-05 12:29:52,573 - asyncssh - INFO - [conn=2, chan=2] Received channel close
+2025-09-05 12:29:52,574 - asyncssh - INFO - [conn=2, chan=2] Channel closed
+2025-09-05 12:29:52,574 - core.ssh_manager - INFO - CPU cores for 85.9.192.253: 2
+2025-09-05 12:29:52,574 - core.ssh_manager - INFO - Checking OS type for 85.9.192.253
+2025-09-05 12:29:52,574 - asyncssh - INFO - [conn=2, chan=3] Requesting new SSH session
+2025-09-05 12:29:52,825 - asyncssh - INFO - [conn=2, chan=3]   Command: grep '^ID=' /etc/os-release | cut -d= -f2 | tr -d '"'
+2025-09-05 12:29:53,081 - asyncssh - INFO - [conn=2, chan=3] Received exit status 0
+2025-09-05 12:29:53,081 - asyncssh - INFO - [conn=2, chan=3] Received channel close
+2025-09-05 12:29:53,082 - asyncssh - INFO - [conn=2, chan=3] Channel closed
+2025-09-05 12:29:53,082 - core.ssh_manager - INFO - OS type for 85.9.192.253: ubuntu
+2025-09-05 12:29:53,082 - core.ssh_manager - INFO - Checking boot mode for 85.9.192.253
+2025-09-05 12:29:53,082 - asyncssh - INFO - [conn=2, chan=4] Requesting new SSH session
+2025-09-05 12:29:53,333 - asyncssh - INFO - [conn=2, chan=4]   Command: [ -d /sys/firmware/efi ] && echo 'uefi' || echo 'legacy'
+2025-09-05 12:29:53,587 - asyncssh - INFO - [conn=2, chan=4] Received exit status 0
+2025-09-05 12:29:53,587 - asyncssh - INFO - [conn=2, chan=4] Received channel close
+2025-09-05 12:29:53,588 - asyncssh - INFO - [conn=2, chan=4] Channel closed
+2025-09-05 12:29:53,588 - core.ssh_manager - INFO - Boot mode for 85.9.192.253: legacy
+2025-09-05 12:29:53,588 - core.ssh_manager - INFO - System specs for 85.9.192.253: {'ram_mb': 3874, 'disk_gb': 73, 'cpu_cores': 2, 'os_type': 'ubuntu', 'boot_mode': 'legacy'}
+2025-09-05 12:29:53,607 - core.ssh_manager - INFO - Cleaning up old installation on 85.9.192.253
+2025-09-05 12:29:53,607 - asyncssh - INFO - [conn=2, chan=5] Requesting new SSH session
+2025-09-05 12:29:53,858 - asyncssh - INFO - [conn=2, chan=5]   Command: rm -rf /root/windows_install
+2025-09-05 12:29:54,112 - asyncssh - INFO - [conn=2, chan=5] Received exit status 0
+2025-09-05 12:29:54,112 - asyncssh - INFO - [conn=2, chan=5] Received channel close
+2025-09-05 12:29:54,113 - asyncssh - INFO - [conn=2, chan=5] Channel closed
+2025-09-05 12:29:54,113 - core.ssh_manager - INFO - Creating installation directory on 85.9.192.253
+2025-09-05 12:29:54,113 - asyncssh - INFO - [conn=2, chan=6] Requesting new SSH session
+2025-09-05 12:29:54,364 - asyncssh - INFO - [conn=2, chan=6]   Command: mkdir -p /root/windows_install
+2025-09-05 12:29:54,618 - asyncssh - INFO - [conn=2, chan=6] Received exit status 0
+2025-09-05 12:29:54,619 - asyncssh - INFO - [conn=2, chan=6] Received channel close
+2025-09-05 12:29:54,619 - asyncssh - INFO - [conn=2, chan=6] Channel closed
+2025-09-05 12:29:54,619 - core.ssh_manager - INFO - Downloading installation script to 85.9.192.253
+2025-09-05 12:29:54,620 - asyncssh - INFO - [conn=2, chan=7] Requesting new SSH session
+2025-09-05 12:29:54,871 - asyncssh - INFO - [conn=2, chan=7]   Command: cd /root/windows_install && wget --timeout=60 --tries=3 -O reinstall.sh https://kodeazmi.id/windows/reinstall.sh && chmod +x reinstall.sh
+2025-09-05 12:29:55,730 - asyncssh - INFO - [conn=2, chan=7] Received exit status 0
+2025-09-05 12:29:55,731 - asyncssh - INFO - [conn=2, chan=7] Received channel close
+2025-09-05 12:29:55,731 - asyncssh - INFO - [conn=2, chan=7] Channel closed
+2025-09-05 12:29:55,732 - asyncssh - INFO - [conn=2, chan=8] Requesting new SSH session
+2025-09-05 12:29:55,982 - asyncssh - INFO - [conn=2, chan=8]   Command: [ -f /root/windows_install/reinstall.sh ] && echo 'OK' || echo 'FAIL'
+2025-09-05 12:29:56,236 - asyncssh - INFO - [conn=2, chan=8] Received exit status 0
+2025-09-05 12:29:56,236 - asyncssh - INFO - [conn=2, chan=8] Received channel close
+2025-09-05 12:29:56,237 - asyncssh - INFO - [conn=2, chan=8] Channel closed
+2025-09-05 12:29:56,237 - core.ssh_manager - INFO - Installation prepared for 85.9.192.253
+2025-09-05 12:29:56,258 - core.ssh_manager - INFO - Using image URL for 85.9.192.253: https://mysticpage.id/bios/windows2022.gz (boot: legacy)
+2025-09-05 12:29:56,258 - core.ssh_manager - INFO - Starting installation on 85.9.192.253 with RDP port 22
+2025-09-05 12:29:56,258 - asyncssh - INFO - [conn=2, chan=9] Requesting new SSH session
+2025-09-05 12:29:56,509 - asyncssh - INFO - [conn=2, chan=9]   Command: cd /root/windows_install && bash reinstall.sh dd --rdp-port 22 --password 'Ngentod123#' --img 'https://mysticpage.id/bios/windows2022.gz' 2>&1
+2025-09-05 12:29:59,930 - asyncssh - INFO - [conn=2, chan=9] Received exit status 0
+2025-09-05 12:29:59,930 - asyncssh - INFO - [conn=2, chan=9] Received channel close
+2025-09-05 12:29:59,931 - asyncssh - INFO - [conn=2, chan=9] Channel closed
+2025-09-05 12:29:59,931 - core.ssh_manager - INFO - Installation command completed for 85.9.192.253, scheduling reboot
+2025-09-05 12:29:59,931 - asyncssh - INFO - [conn=2, chan=10] Requesting new SSH session
+2025-09-05 12:30:00,182 - asyncssh - INFO - [conn=2, chan=10]   Command: nohup sh -c 'sleep 5 && reboot' &
+2025-09-05 12:30:00,435 - asyncssh - INFO - [conn=2, chan=10] Received exit status 0
+2025-09-05 12:30:05,460 - asyncssh - INFO - [conn=2] Connection lost
+2025-09-05 12:30:05,460 - asyncssh - INFO - [conn=2, chan=10] Closing channel due to connection close
+2025-09-05 12:30:05,460 - asyncssh - INFO - [conn=2, chan=10] Channel closed: Connection lost
+2025-09-05 12:30:05,461 - core.ssh_manager - INFO - Reboot scheduled for 85.9.192.253
+2025-09-05 12:36:10,477 - handlers.install - INFO - Port 80 closed, check 1/2 for 85.9.192.253
+2025-09-05 12:36:25,476 - handlers.install - INFO - Port 80 closed, check 2/2 for 85.9.192.253
+2025-09-05 12:36:25,493 - database.users - INFO - Updated install stats for user_id 7: success=True
+2025-09-05 12:36:25,493 - asyncssh - INFO - [conn=2] Closing connection
+2025-09-05 12:36:25,494 - asyncssh - INFO - [conn=2] Sending disconnect: Disconnected by application (11)
+2025-09-05 12:36:25,494 - core.ssh_manager - INFO - Disconnected from 85.9.192.253
+2025-09-07 07:00:26,217 - app - INFO - Shutting down API server...
+2025-09-07 07:00:26,217 - database.connection - INFO - Connection pool closed
+2025-09-07 07:00:26,217 - app - INFO - API server stopped

@@ -1,0 +1,55 @@
+# Core Bot Dependencies
+python-telegram-bot==20.7
+python-dotenv==1.0.0
+asyncssh==2.14.0
+asyncio==3.4.3
+
+# Web API Dependencies
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+python-multipart==0.0.6
+pyjwt==2.8.0
+
+# CORS and Security
+python-jose[cryptography]==3.3.0
+
+# System Monitoring (Admin Panel)
+psutil==5.9.6
+
+# MySQL Database Dependencies
+aiomysql>=0.2.0,<1.0.0
+sqlalchemy[asyncio]>=2.0.0,<2.1.0
+pymysql>=1.0.0,<2.0.0
+cryptography>=3.4.0
+
+# Database Migration and Schema
+alembic>=1.12.0
+
+# Connection Pooling and Performance
+aiofiles>=23.0.0
+
+# JSON handling for legacy migration
+orjson>=3.8.0
+
+# Logging and Monitoring
+structlog>=23.0.0
+
+# Date and Time utilities
+python-dateutil>=2.8.0
+
+# Testing (Development only)
+pytest>=7.0.0
+pytest-asyncio>=0.20.0
+httpx>=0.24.0
+
+# Development tools (optional)
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.5.0
+
+# Production server (optional alternative to uvicorn)
+gunicorn>=20.0.0
+
+# Health checks and monitoring
+aiohttp>=3.8.0
